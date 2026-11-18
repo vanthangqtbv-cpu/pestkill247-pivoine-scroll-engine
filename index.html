@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html lang="vi" class="js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>PEST KILL 247 — BioGold Pro | Tinh Hoa Kiểm Soát Côn Trùng Sinh Học</title>
+  <meta name="description" content="Trải nghiệm công nghệ kiểm soát côn trùng sinh học cao cấp từ Pest Kill 247 (Công ty TNHH TM DV Kỹ Thuật Hoàng Trang Việt Nam). Diệt gián Đức, chuột và côn trùng chuẩn HACCP." />
+
+  <!-- Google Fonts: Playfair Display (--serif) & Manrope (--sans) matching Ascenta Studio's PIVOINE -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="checkout.css" />
+
+  <style>
+    /* ==========================================================================
+       SCRUBBED by scroll on a canvas from pre-decoded ImageBitmaps —
+       the engine of galatea/ (Ascenta Studio PIVOINE architecture),
+       customized for PEST KILL 247 (Hoàng Trang Việt Nam).
+       ========================================================================== */
+    :root {
+      --air: #F3ECE1;
+      --air-deep: #EAE0D0;
+      --ink: #1F1611;
+      --ink2: #3A291F;
+      --muted: #695647;
+      --gold: #8C632A;
+      --gold-bright: #C6934B;
+      --serif: "Playfair Display", Georgia, serif;
+      --sans: "Manrope", -apple-system, BlinkMacSystemFont, sans-serif;
+      --expo: cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      background-color: var(--air);
+      color: var(--ink);
+      font-family: var(--sans);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+    }
+
+    /* Fixed Full-Viewport 2D ImageBitmap Canvas */
+    #film {
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100lvh;
+      pointer-events: none;
+      z-index: 1;
+      display: block;
+    }
+
+    /* Subtle Frame-Scrub Telemetry Pill (Bottom Right) */
+    .pk-engine-hud {
+      position: fixed;
+      right: 24px;
+      bottom: 22px;
+      z-index: 40;
+      background: rgba(250, 245, 237, 0.76);
+      backdrop-filter: blur(14px) saturate(1.3);
+      -webkit-backdrop-filter: blur(14px) saturate(1.3);
+      border: 1px solid rgba(140, 99, 42, 0.22);
+      border-radius: 99px;
+      padding: 7px 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      color: var(--ink2);
+      box-shadow: 0 8px 24px rgba(31, 22, 17, 0.08);
+      transition: opacity 0.35s ease;
+    }
+
+    .pk-hud-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #2E8B57;
+      box-shadow: 0 0 8px rgba(46, 139, 87, 0.7);
+    }
+
+    /* Floating Frosted-Glass Pill Navigation (Exact PIVOINE style) */
+    .pk-nav-wrap {
+      position: fixed;
+      top: 22px;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: center;
+      padding: 0 20px;
+      pointer-events: none;
+    }
+
+    .pk-nav {
+      pointer-events: auto;
+      background: rgba(251, 247, 240, 0.76);
+      backdrop-filter: blur(18px) saturate(1.35);
+      -webkit-backdrop-filter: blur(18px) saturate(1.35);
+      border: 1px solid rgba(255, 255, 255, 0.78);
+      box-shadow: 0 14px 38px rgba(42, 28, 18, 0.09), 0 1px 0 rgba(140, 99, 42, 0.14);
+      border-radius: 999px;
+      padding: 8px 10px 8px 26px;
+      display: inline-flex;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .pk-brand {
+      font-family: var(--serif);
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      color: var(--ink);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .pk-nav-links {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      list-style: none;
+    }
+
+    .pk-nav-links a {
+      font-size: 13.5px;
+      font-weight: 600;
+      color: var(--ink2);
+      text-decoration: none;
+      transition: color 0.2s ease;
+      white-space: nowrap;
+    }
+
+    .pk-nav-links a:hover {
+      color: var(--gold);
+    }
+
+    .pk-nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .pk-bag-circle {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 1px solid rgba(31, 22, 17, 0.16);
+      background: rgba(255, 255, 255, 0.72);
+      color: var(--ink);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      position: relative;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+    .pk-bag-circle:hover {
+      transform: scale(1.05);
+      background: #FFFFFF;
+    }
+
+    .pk-bag-badge {
+      position: absolute;
+      top: -4px;
+      right: -4px;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--gold);
+      color: #FFFFFF;
+      font-size: 10px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .pk-nav-cta {
+      padding: 10px 22px;
+      border-radius: 99px;
+      border: none;
+      background: linear-gradient(135deg, #3A281E 0%, #6E4D30 100%);
+      color: #FAF6F0;
+      font-family: var(--sans);
+      font-size: 13.5px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 6px 18px rgba(58, 40, 30, 0.22);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      white-space: nowrap;
+    }
+
+    .pk-nav-cta:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 10px 22px rgba(58, 40, 30, 0.32);
+    }
+
+    /* ==========================================================================
+       SCROLL STORYTELLING TRACK (Fixed PIVOINE Left-Column Stage Deck)
+       ========================================================================== */
+    .pk-scroll-track {
+      position: relative;
+      z-index: 10;
+      height: 400vh;
+      pointer-events: none;
+    }
+
+    .pk-stage-anchor {
+      height: 133.33vh;
+      width: 100%;
+    }
+
+    .pk-stage-deck {
+      position: fixed;
+      top: 53%;
+      left: clamp(28px, 6.5vw, 108px);
+      transform: translateY(-50%);
+      z-index: 15;
+      width: min(440px, calc(100vw - 56px));
+      pointer-events: none;
+    }
+
+    .pk-stage-card {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transform: translateY(calc(-50% + 24px));
+      transition: opacity 0.55s var(--expo), transform 0.55s var(--expo), visibility 0.55s;
+    }
+
+    .pk-stage-card.is-visible {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+      transform: translateY(-50%);
+    }
+
+    .pk-eyebrow {
+      font-size: 11.5px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink2);
+      margin-bottom: 18px;
+      line-height: 1.55;
+    }
+
+    .pk-headline {
+      font-family: var(--serif);
+      font-size: clamp(42px, 4.6vw, 64px);
+      font-weight: 500;
+      line-height: 1.04;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+      margin-bottom: 24px;
+    }
+
+    .pk-headline em {
+      font-style: italic;
+      font-weight: 400;
+      color: #4D3422;
+    }
+
+    .pk-lead {
+      font-size: clamp(16px, 1.35vw, 18.5px);
+      font-weight: 500;
+      line-height: 1.56;
+      color: var(--ink2);
+      margin-bottom: 28px;
+      max-width: 390px;
+    }
+
+    .pk-hero-pill-btn {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 13px 38px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      background: linear-gradient(160deg, #5E4332 0%, #38251B 100%);
+      color: #FAF6F0;
+      font-family: var(--sans);
+      font-size: 14.5px;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 14px 32px rgba(56, 37, 27, 0.25), 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+      transition: transform 0.25s var(--expo), box-shadow 0.25s var(--expo);
+      margin-bottom: 34px;
+    }
+
+    .pk-hero-pill-btn:hover {
+      transform: translateY(-2px) scale(1.02);
+      box-shadow: 0 18px 38px rgba(56, 37, 27, 0.34);
+    }
+
+    .pk-hero-pill-btn span.price {
+      font-size: 15px;
+      font-weight: 700;
+      color: #F3DEC0;
+      margin-top: 2px;
+    }
+
+    .pk-scroll-cue {
+      display: inline-flex;
+      flex-direction: column;
+      gap: 8px;
+      color: var(--ink2);
+      text-decoration: none;
+      font-size: 13.5px;
+      font-weight: 600;
+    }
+
+    .pk-scroll-cue .cue-line {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding-top: 8px;
+      border-top: 1px solid rgba(31, 22, 17, 0.28);
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .pk-feature-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+
+    .pk-chip {
+      padding: 7px 13px;
+      border-radius: 99px;
+      background: rgba(255, 255, 255, 0.66);
+      border: 1px solid rgba(140, 99, 42, 0.24);
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--ink2);
+      backdrop-filter: blur(8px);
+    }
+
+    /* ==========================================================================
+       PRODUCT & B2B SERVICE SHOWCASE SECTION ("Four pieces, one standard")
+       ========================================================================== */
+    .pk-shop-section {
+      position: relative;
+      z-index: 20;
+      background: linear-gradient(180deg, rgba(243, 236, 225, 0.78) 0%, #F3ECE1 12%, #EDE3D4 100%);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      padding: 110px clamp(24px, 6vw, 96px) 90px;
+      border-top: 1px solid rgba(140, 99, 42, 0.16);
+    }
+
+    .pk-shop-header {
+      max-width: 1280px;
+      margin: 0 auto 54px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .pk-shop-title {
+      font-family: var(--serif);
+      font-size: clamp(36px, 3.8vw, 54px);
+      font-weight: 500;
+      color: var(--ink);
+      line-height: 1.08;
+    }
+
+    .pk-shop-sub {
+      max-width: 420px;
+      font-size: 15px;
+      line-height: 1.6;
+      color: var(--muted);
+    }
+
+    .pk-product-grid {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+
+    .pk-prod-card {
+      background: rgba(255, 253, 249, 0.84);
+      border: 1px solid rgba(140, 99, 42, 0.18);
+      border-radius: 24px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.35s var(--expo), box-shadow 0.35s var(--expo);
+    }
+
+    .pk-prod-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 24px 48px rgba(31, 22, 17, 0.11);
+    }
+
+    .pk-prod-img-wrap {
+      position: relative;
+      aspect-ratio: 1 / 1;
+      overflow: hidden;
+      background: #EAE1D3;
+    }
+
+    .pk-prod-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s var(--expo);
+    }
+
+    .pk-prod-card:hover .pk-prod-img-wrap img {
+      transform: scale(1.05);
+    }
+
+    .pk-prod-tag {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      padding: 5px 11px;
+      border-radius: 99px;
+      background: rgba(31, 22, 17, 0.78);
+      backdrop-filter: blur(8px);
+      color: #F6EFE4;
+      font-size: 10.5px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .pk-prod-body {
+      padding: 22px 22px 24px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: space-between;
+    }
+
+    .pk-prod-name {
+      font-family: var(--serif);
+      font-size: 22px;
+      font-weight: 500;
+      color: var(--ink);
+      margin-bottom: 6px;
+    }
+
+    .pk-prod-ingredient {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+
+    .pk-prod-desc {
+      font-size: 13.5px;
+      line-height: 1.55;
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+
+    .pk-prod-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 16px;
+      border-top: 1px solid rgba(140, 99, 42, 0.15);
+    }
+
+    .pk-prod-price {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--ink);
+    }
+
+    .pk-add-btn {
+      padding: 10px 18px;
+      border-radius: 99px;
+      border: none;
+      background: var(--ink);
+      color: #FAF6F0;
+      font-family: var(--sans);
+      font-size: 12.5px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s ease, transform 0.2s ease;
+    }
+
+    .pk-add-btn:hover {
+      background: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* B2B Enterprise Standards Banner */
+    .pk-b2b-banner {
+      max-width: 1280px;
+      margin: 56px auto 0;
+      background: linear-gradient(135deg, #221813 0%, #3B291E 100%);
+      color: #FAF6F0;
+      border-radius: 28px;
+      padding: 44px 48px;
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      align-items: center;
+      gap: 32px;
+      box-shadow: 0 28px 60px rgba(31, 22, 17, 0.18);
+    }
+
+    .pk-b2b-metrics {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    .pk-metric-box {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 224, 178, 0.16);
+      border-radius: 18px;
+      padding: 18px 20px;
+    }
+
+    .pk-metric-val {
+      font-family: var(--serif);
+      font-size: 28px;
+      color: #E8C690;
+      margin-bottom: 4px;
+    }
+
+    .pk-metric-lbl {
+      font-size: 12.5px;
+      color: rgba(250, 246, 240, 0.78);
+    }
+
+    /* Footer */
+    .pk-footer {
+      position: relative;
+      z-index: 20;
+      background: #1A120E;
+      color: rgba(250, 246, 240, 0.78);
+      padding: 64px clamp(24px, 6vw, 96px) 48px;
+      font-size: 13.5px;
+      line-height: 1.65;
+    }
+
+    .pk-footer-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1fr;
+      gap: 40px;
+    }
+
+    .pk-footer h4 {
+      font-family: var(--serif);
+      font-size: 20px;
+      color: #FAF6F0;
+      margin-bottom: 12px;
+      font-weight: 500;
+    }
+
+    @media (max-width: 1040px) {
+      .pk-product-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .pk-b2b-banner {
+        grid-template-columns: 1fr;
+      }
+      .pk-footer-inner {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .pk-nav-links {
+        display: none;
+      }
+      .pk-product-grid {
+        grid-template-columns: 1fr;
+      }
+      .pk-stage-card {
+        background: rgba(243, 236, 225, 0.82);
+        backdrop-filter: blur(12px);
+        padding: 24px;
+        border-radius: 22px;
+      }
+    }
+  </style>
+</head>
+<body id="top">
+
+  <!-- ========================================================================
+       FIXED FULL-VIEWPORT HTML5 <canvas id="film"> (ImageBitmap Frame Scrubber)
+       ======================================================================== -->
+  <canvas id="film" width="1280" height="720" aria-hidden="true"></canvas>
+
+  <!-- Live Engine Telemetry Badge (proves ImageBitmap + Binary Pack + Lenis in real time) -->
+  <div class="pk-engine-hud" id="pk-hud">
+    <span class="pk-hud-dot"></span>
+    <span id="pk-hud-text">CANVAS IMAGEBITMAP · FRAME 001 / 160</span>
+  </div>
+
+  <!-- ========================================================================
+       FLOATING FROSTED-GLASS PILL NAVIGATION (Exact PIVOINE Layout)
+       ======================================================================== -->
+  <header class="pk-nav-wrap">
+    <nav class="pk-nav" aria-label="Điều hướng chính">
+      <a href="#top" class="pk-brand" data-scroll-to="#top">PEST KILL 247</a>
+      <ul class="pk-nav-links">
+        <li><a href="#the-flower" data-scroll-to="#the-flower">Tinh hoa Sinh học</a></li>
+        <li><a href="#the-cream" data-scroll-to="#the-cream">Cơ chế Domino</a></li>
+        <li><a href="#the-ritual" data-scroll-to="#the-ritual">Lá chắn 360°</a></li>
+        <li><a href="#the-line" data-scroll-to="#the-line">Bộ giải pháp</a></li>
+      </ul>
+      <div class="pk-nav-actions">
+        <button type="button" class="pk-bag-circle" data-open-bag aria-label="Giỏ hàng">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="pk-bag-badge" data-bag-count>1</span>
+        </button>
+        <button type="button" class="pk-nav-cta" data-open-bag>Đặt mua · Báo giá</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ========================================================================
+       SCROLL-DRIVEN 3D STORYTELLING TRACK (3 Pinned Acts + Scroll Anchors)
+       ======================================================================== -->
+  <main class="pk-scroll-track" id="scroll-track">
+    <div class="pk-stage-anchor" id="the-flower"></div>
+    <div class="pk-stage-anchor" id="the-cream"></div>
+    <div class="pk-stage-anchor" id="the-ritual"></div>
+  </main>
+
+  <div class="pk-stage-deck" id="stage-deck">
+    <!-- ACT I: THE BLOOM REVEAL (Frames 001 - 050) -->
+    <div class="pk-stage-card is-visible" data-stage-card="0">
+      <div class="pk-eyebrow">CHẾ PHẨM SINH HỌC · LÔ TINH CHẾ ĐẶC BIỆT</div>
+      <h1 class="pk-headline">
+        Cúc Trừ Sâu,<br />
+        khi vừa <em>hé nở.</em>
+      </h1>
+      <p class="pk-lead">
+        Gel diệt gián Đức sinh học <strong>BioGold Pro</strong> chiết xuất từ hoa Cúc Trừ Sâu (<em>Chrysanthemum cinerariifolium</em>) kết hợp ma trận dẫn dụ thần kinh, lưu giữ trong hũ pha lê khói xứng tầm không gian bếp 5 sao.
+      </p>
+      <button type="button" class="pk-hero-pill-btn" data-add-sku="PK-BIOGOLD-35">
+        <span>Thêm vào giỏ ·</span>
+        <span class="price">480.000 ₫</span>
+      </button>
+      <div>
+        <a href="#the-line" class="pk-scroll-cue" data-scroll-to="#the-line">
+          <span>Khám phá bộ sản phẩm</span>
+          <span class="cue-line">CUỘN XUỐNG &nbsp;↓</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- ACT II: LEVITATION & EXPLODED VIEW (Frames 051 - 108) -->
+    <div class="pk-stage-card" data-stage-card="1">
+      <div class="pk-eyebrow">CƠ CHẾ LÂY NHIỄM CHÉO · HIỆU ỨNG DOMINO</div>
+      <h2 class="pk-headline">
+        Cô đặc, rồi <em>lan tỏa</em><br />
+        tận gốc.
+      </h2>
+      <p class="pk-lead">
+        Khi nắp Obsidian mở ra, lõi Gel Hổ Phách giải phóng các hạt vi nang thu hút gián Đức ăn mồi và mang về tổ. Hiệu ứng Domino tiêu diệt sạch cả đàn lẫn trứng non chỉ sau 72 giờ mà không để lại mùi hóa chất.
+      </p>
+      <div class="pk-feature-chips">
+        <span class="pk-chip">0% Mùi hóa chất</span>
+        <span class="pk-chip">Tỷ lệ diệt tổ 99.8%</span>
+        <span class="pk-chip">An toàn cho khu vực F&amp;B</span>
+      </div>
+      <button type="button" class="pk-hero-pill-btn" data-add-sku="PK-BIOGOLD-35">
+        <span>Đặt mua BioGold Pro ·</span>
+        <span class="price">480.000 ₫</span>
+      </button>
+    </div>
+
+    <!-- ACT III: TOP-DOWN 360° BIO-SHIELD RITUAL (Frames 109 - 160) -->
+    <div class="pk-stage-card" data-stage-card="2">
+      <div class="pk-eyebrow">CHUẨN KIỂM TOÁN QUỐC TẾ · HACCP &amp; BỘ Y TẾ</div>
+      <h2 class="pk-headline">
+        Bốn mảnh ghép,<br />
+        một <em>quy trình.</em>
+      </h2>
+      <p class="pk-lead">
+        Từ Gel sinh học diệt gián Đức, Tinh chất phun ULV không mùi đến Trạm kiểm soát chuột thông minh — tất cả tạo nên lá chắn sinh học 360° bảo vệ Nhà hàng, Khách sạn, Chung cư và Nhà máy của bạn.
+      </p>
+      <div class="pk-feature-chips">
+        <span class="pk-chip">Đầy đủ hồ sơ MSDS</span>
+        <span class="pk-chip">Chứng nhận Sở Y Tế</span>
+        <span class="pk-chip">Xuất hóa đơn VAT B2B</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       4-COLUMN PRODUCT & B2B SERVICE GRID ("Four pieces, one standard")
+       ======================================================================== -->
+  <section class="pk-shop-section" id="the-line">
+    <div class="pk-shop-header">
+      <div>
+        <div class="pk-eyebrow" style="margin-bottom:10px;">BỘ GIẢI PHÁP CHUYÊN SÂU · PEST KILL 247</div>
+        <h2 class="pk-shop-title">Bốn giải pháp, một tiêu chuẩn vàng.</h2>
+      </div>
+      <p class="pk-shop-sub">
+        Cung cấp lẻ chế phẩm chính hãng giao nhanh 2h tại TP.HCM hoặc triển khai trọn gói dịch vụ kiểm soát côn trùng định kỳ cho doanh nghiệp B2B.
+      </p>
+    </div>
+
+    <div class="pk-product-grid">
+      <!-- Product 1 -->
+      <article class="pk-prod-card">
+        <div class="pk-prod-img-wrap">
+          <span class="pk-prod-tag">Best Seller B2B</span>
+          <img src="assets/products/prod_gel_biogold.jpg" alt="BioGold Pro Gel Diệt Gián Đức" loading="lazy" />
+        </div>
+        <div class="pk-prod-body">
+          <div>
+            <div class="pk-prod-ingredient">Chiết xuất Cúc Trừ Sâu &amp; Domino Matrix</div>
+            <h3 class="pk-prod-name">BioGold Pro — Gel Diệt Gián Đức</h3>
+            <p class="pk-prod-desc">
+              Đặc trị gián Đức kháng thuốc tại quầy bar, bếp nhà hàng F&amp;B, quán bún đậu và tủ bếp căn hộ. Hiệu ứng lây nhiễm chéo xóa sổ cả ổ sau 72h.
+            </p>
+          </div>
+          <div class="pk-prod-footer">
+            <span class="pk-prod-price">480.000 ₫</span>
+            <button type="button" class="pk-add-btn" data-add-sku="PK-BIOGOLD-35">Thêm vào giỏ</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Product 2 -->
+      <article class="pk-prod-card">
+        <div class="pk-prod-img-wrap">
+          <span class="pk-prod-tag">Không mùi · Chuẩn Bộ Y Tế</span>
+          <img src="assets/products/prod_ulv_nano.jpg" alt="Nano Shield Tinh Chất Phun ULV" loading="lazy" />
+        </div>
+        <div class="pk-prod-body">
+          <div>
+            <div class="pk-prod-ingredient">Pyrethroid Tự Nhiên &amp; Nano-Encapsulation</div>
+            <h3 class="pk-prod-name">Nano Shield — Tinh Chất ULV 500ml</h3>
+            <p class="pk-prod-desc">
+              Chế phẩm phun sương lạnh &amp; tồn lưu diện rộng kiểm soát muỗi, ruồi, kiến, gián. Không màu, không mùi, không làm ố bề mặt nội thất cao cấp.
+            </p>
+          </div>
+          <div class="pk-prod-footer">
+            <span class="pk-prod-price">890.000 ₫</span>
+            <button type="button" class="pk-add-btn" data-add-sku="PK-ULV-500">Thêm vào giỏ</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Product 3 -->
+      <article class="pk-prod-card">
+        <div class="pk-prod-img-wrap">
+          <span class="pk-prod-tag">Chuẩn Kiểm Toán HACCP</span>
+          <img src="assets/products/prod_smart_bait.jpg" alt="SmartBait Trạm Kiểm Soát Chuột" loading="lazy" />
+        </div>
+        <div class="pk-prod-body">
+          <div>
+            <div class="pk-prod-ingredient">Khóa An Toàn Kép &amp; Mồi Sinh Học</div>
+            <h3 class="pk-prod-name">SmartBait — Trạm Kiểm Soát Chuột</h3>
+            <p class="pk-prod-desc">
+              Trạm bẫy chuột thiết kế kiến trúc đen nhám sang trọng, chống nước IP65, khóa an toàn tuyệt đối cho nhà máy thực phẩm, kho vận và khuôn viên.
+            </p>
+          </div>
+          <div class="pk-prod-footer">
+            <span class="pk-prod-price">650.000 ₫</span>
+            <button type="button" class="pk-add-btn" data-add-sku="PK-BAIT-PRO">Thêm vào giỏ</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Product 4 -->
+      <article class="pk-prod-card">
+        <div class="pk-prod-img-wrap">
+          <span class="pk-prod-tag">Gói Doanh Nghiệp B2B</span>
+          <img src="assets/products/prod_b2b_kit.jpg" alt="B2B Master Kit & Dịch Vụ Định Kỳ" loading="lazy" />
+        </div>
+        <div class="pk-prod-body">
+          <div>
+            <div class="pk-prod-ingredient">Khảo Sát Thực Địa &amp; Bảo Hành Định Kỳ</div>
+            <h3 class="pk-prod-name">B2B Master Kit &amp; Dịch Vụ Định Kỳ</h3>
+            <p class="pk-prod-desc">
+              Gói dịch vụ kiểm soát côn trùng toàn diện cho Nhà hàng, Khách sạn, Bệnh viện, Trường học. Kèm hồ sơ pháp lý Sở Y Tế, MSDS và Hóa đơn VAT.
+            </p>
+          </div>
+          <div class="pk-prod-footer">
+            <span class="pk-prod-price">2.450.000 ₫</span>
+            <button type="button" class="pk-add-btn" data-add-sku="PK-B2B-SUITE">Đặt lịch ngay</button>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- B2B Enterprise Banner -->
+    <div class="pk-b2b-banner" id="b2b">
+      <div>
+        <div class="pk-eyebrow" style="color:#E8C690;margin-bottom:10px;">ĐỐI TÁC KIỂM SOÁT DỊCH HẠI B2B HÀNG ĐẦU TP.HCM</div>
+        <h3 style="font-family:var(--serif);font-size:clamp(26px,3vw,36px);font-weight:500;margin-bottom:14px;">
+          Cần khảo sát thực địa &amp; báo giá hợp đồng cho Nhà hàng, Chung cư, Bệnh viện?
+        </h3>
+        <p style="font-size:14.5px;line-height:1.6;color:rgba(250,246,240,0.82);margin-bottom:22px;">
+          Đội ngũ kỹ thuật viên <strong>Pest Kill 247</strong> có mặt khảo sát miễn phí trong 30 phút tại TP.HCM. Cung cấp trọn bộ Hợp đồng dịch vụ, Phương án thực thi KTV, Sơ đồ trạm bẫy, MSDS và Hóa đơn GTGT chuẩn pháp lý.
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:12px;">
+          <button type="button" class="pk-nav-cta" style="background:#E8C690;color:#1F1611;font-weight:700;" data-add-sku="PK-B2B-SUITE">
+            Yêu cầu Báo giá B2B trực tuyến
+          </button>
+          <a href="tel:0902972860" class="pk-nav-cta" style="background:rgba(255,255,255,0.12);border:1px solid rgba(232,198,144,0.4);">
+            Gọi Hotline: 0902 972 860
+          </a>
+        </div>
+      </div>
+      <div class="pk-b2b-metrics">
+        <div class="pk-metric-box">
+          <div class="pk-metric-val">10.865+</div>
+          <div class="pk-metric-lbl">Khách hàng F&amp;B, Chung cư &amp; Nhà máy tin dùng</div>
+        </div>
+        <div class="pk-metric-box">
+          <div class="pk-metric-val">30 Phút</div>
+          <div class="pk-metric-lbl">Tốc độ kỹ thuật viên có mặt xử lý hiện trường</div>
+        </div>
+        <div class="pk-metric-box">
+          <div class="pk-metric-val">100%</div>
+          <div class="pk-metric-lbl">Chế phẩm lưu hành Bộ Y Tế &amp; Chuẩn HACCP</div>
+        </div>
+        <div class="pk-metric-box">
+          <div class="pk-metric-val">24/7</div>
+          <div class="pk-metric-lbl">Dịch vụ diệt côn trùng, bắt ong, bắt rắn khẩn cấp</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       LEGAL & BRAND FOOTER (100% Compliant with Sếp Thắng's Rules)
+       ======================================================================== -->
+  <footer class="pk-footer">
+    <div class="pk-footer-inner">
+      <div>
+        <h4>PEST KILL 247 — CÔNG TY TNHH TM DV KỸ THUẬT HOÀNG TRANG VIỆT NAM</h4>
+        <p>Mã số thuế: <strong style="color:#FAF6F0;">0316463011</strong> · Mã định danh nhà thầu: <strong style="color:#FAF6F0;">vn0316463011</strong></p>
+        <p>Địa chỉ trụ sở: <strong style="color:#FAF6F0;">70/41 đường 339, Phường Phước Long, TP. Hồ Chí Minh</strong></p>
+        <p>Đại diện pháp luật: <strong style="color:#FAF6F0;">Bà Phùng Thị Thu Trang – Giám đốc</strong></p>
+      </div>
+      <div>
+        <h4>Dịch vụ Trọng điểm</h4>
+        <p>· Dịch vụ diệt Gián Đức &amp; Chuột B2B (F&amp;B, Nhà máy)</p>
+        <p>· Dịch vụ phun côn trùng tổng hợp chuẩn Bộ Y Tế</p>
+        <p>· Dịch vụ bắt rắn, dịch vụ bắt ong chuyên nghiệp 24/7</p>
+        <p>· Cung cấp chế phẩm &amp; thiết bị kiểm soát dịch hại</p>
+      </div>
+      <div>
+        <h4>Liên hệ &amp; Thanh toán</h4>
+        <p>Hotline 24/7: <a href="tel:0902972860" style="color:#E8C690;text-decoration:none;font-weight:700;">0902 972 860</a></p>
+        <p>Website chính thức: <a href="https://pestkill247.com" target="_blank" rel="noopener" style="color:#E8C690;text-decoration:none;">pestkill247.com</a></p>
+        <p>Tài khoản Sacombank: <strong style="color:#FAF6F0;">0602 5463 0813</strong> (CN Quận 9)</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       IN-PAGE 3-STEP LUXURY CHECKOUT & B2B QUOTE MODAL (PIVOINE Architecture)
+       ======================================================================== -->
+  <div class="pk-modal-backdrop" id="pk-checkout-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="pk-modal-panel">
+      <!-- Left Column: Order Summary -->
+      <div class="pk-order-col">
+        <div>
+          <div class="pk-order-header">
+            <div>
+              <div class="pk-order-eyebrow">PEST KILL 247 · GIỎ HÀNG &amp; BÁO GIÁ</div>
+              <h3 class="pk-order-title">Đơn hàng của bạn</h3>
+            </div>
+          </div>
+          <div class="pk-bag-items" id="pk-bag-list"></div>
+          <div class="pk-totals">
+            <div class="pk-total-row">
+              <span>Tạm tính</span>
+              <span id="pk-total-sub">480.000 ₫</span>
+            </div>
+            <div class="pk-total-row">
+              <span>Vận chuyển / Khảo sát tận nơi</span>
+              <span id="pk-total-ship">Miễn phí (Express 2h)</span>
+            </div>
+            <div class="pk-total-row is-grand">
+              <span>Tổng cộng (Đã gồm VAT)</span>
+              <span id="pk-total-grand">480.000 ₫</span>
+            </div>
+          </div>
+        </div>
+        <div class="pk-legal-box">
+          <strong>CÔNG TY TNHH TM DV KỸ THUẬT HOÀNG TRANG VIỆT NAM</strong><br />
+          MST: 0316463011 · Hotline: 0902 972 860<br />
+          Cam kết chế phẩm chính hãng có giấy phép Bộ Y Tế &amp; xuất hóa đơn điện tử EasyInvoice ngay trong ngày.
+        </div>
+      </div>
+
+      <!-- Right Column: 3-Step Interactive Checkout -->
+      <div class="pk-form-col">
+        <button type="button" class="pk-close-btn" data-close-bag aria-label="Đóng">✕</button>
+
+        <div>
+          <div class="pk-steps-indicator">
+            <span class="pk-step-pill is-active" data-step-pill="1">1. Giao nhận</span>
+            <span class="pk-step-pill" data-step-pill="2">2. Thanh toán &amp; VAT</span>
+            <span class="pk-step-pill" data-step-pill="3">3. Hoàn tất</span>
+          </div>
+
+          <!-- STEP 1: Delivery / Site Survey Info -->
+          <div class="pk-step-pane is-active" data-step-pane="1">
+            <h4 style="font-family:var(--serif);font-size:24px;margin-bottom:16px;">Thông tin giao hàng / Khảo sát</h4>
+            <div class="pk-field-grid">
+              <div>
+                <label class="pk-label" for="pk-inp-name">Họ và tên người nhận *</label>
+                <input id="pk-inp-name" class="pk-input" type="text" placeholder="Nguyễn Văn A" value="Anh Minh — Quản lý Chuỗi F&B" />
+              </div>
+              <div>
+                <label class="pk-label" for="pk-inp-phone">Số điện thoại liên hệ *</label>
+                <input id="pk-inp-phone" class="pk-input" type="tel" placeholder="0902 972 860" value="0909 888 777" />
+              </div>
+              <div class="pk-field-full">
+                <label class="pk-label" for="pk-inp-company">Tên Doanh nghiệp / Nhà hàng / Chung cư (nếu xuất VAT)</label>
+                <input id="pk-inp-company" class="pk-input" type="text" placeholder="Công ty / Nhà hàng..." value="Hệ thống Nhà hàng & Bếp Trung Tâm Sài Gòn" />
+              </div>
+              <div class="pk-field-full">
+                <label class="pk-label" for="pk-inp-addr">Địa chỉ giao hàng hoặc thực hiện dịch vụ tại TP.HCM *</label>
+                <input id="pk-inp-addr" class="pk-input" type="text" placeholder="Số nhà, đường, phường, TP. Hồ Chí Minh" value="Phường Phước Long, TP. Hồ Chí Minh" />
+              </div>
+            </div>
+            <button type="button" class="pk-submit-btn" data-goto-step="2">
+              Tiếp tục tới Thanh toán &amp; Hóa đơn VAT →
+            </button>
+          </div>
+
+          <!-- STEP 2: Interactive 3D Corporate Bank Card & Payment -->
+          <div class="pk-step-pane" data-step-pane="2">
+            <h4 style="font-family:var(--serif);font-size:24px;margin-bottom:14px;">Thanh toán &amp; Xuất hóa đơn GTGT</h4>
+            <div class="pk-card-3d-wrap">
+              <div class="pk-card-3d">
+                <div class="pk-card-top">
+                  <span>SACOMBANK – CN QUẬN 9</span>
+                  <span>PEST KILL 247 CORPORATE</span>
+                </div>
+                <div class="pk-card-acc">0602 5463 0813</div>
+                <div class="pk-card-bot">
+                  <span>CTY TNHH TM DV KT HOÀNG TRANG VN</span>
+                  <span>MST: 0316463011</span>
+                </div>
+              </div>
+            </div>
+            <div class="pk-field-grid">
+              <div class="pk-field-full">
+                <label class="pk-label" for="pk-inp-paymethod">Phương thức thanh toán</label>
+                <select id="pk-inp-paymethod" class="pk-select">
+                  <option value="bank">Chuyển khoản ngân hàng công ty (Kèm Hóa đơn VAT điện tử)</option>
+                  <option value="cod">Thanh toán khi nhận hàng / Sau khi nghiệm thu dịch vụ (COD)</option>
+                </select>
+              </div>
+              <div class="pk-field-full">
+                <label class="pk-label" for="pk-inp-mst">Mã số thuế đơn vị nhận Hóa đơn GTGT (EasyInvoice)</label>
+                <input id="pk-inp-mst" class="pk-input" type="text" placeholder="Nhập MST công ty của bạn..." value="0316463011" />
+              </div>
+            </div>
+            <div class="pk-btn-row">
+              <button type="button" class="pk-back-btn" data-goto-step="1">← Quay lại</button>
+              <button type="button" class="pk-submit-btn" style="margin-top:0;" data-goto-step="3">
+                Xác nhận Đặt hàng &amp; Xuất Báo Giá ✓
+              </button>
+            </div>
+          </div>
+
+          <!-- STEP 3: Instant Confirmation -->
+          <div class="pk-step-pane" data-step-pane="3">
+            <div style="text-align:center;padding:18px 8px;">
+              <div style="width:58px;height:58px;border-radius:50%;background:#2E8B57;color:#FFF;display:inline-flex;align-items:center;justify-content:center;font-size:28px;margin-bottom:16px;">✓</div>
+              <div class="pk-order-eyebrow">ĐÃ GHI NHẬN TRÊN HỆ THỐNG PEST KILL 247</div>
+              <h4 style="font-family:var(--serif);font-size:28px;margin:6px 0 12px;">Đặt hàng thành công!</h4>
+              <p style="font-size:14px;color:#5C4D40;margin-bottom:14px;">
+                Mã hồ sơ: <strong id="pk-confirm-ref" style="color:#1F1712;">PK247-889201</strong>
+              </p>
+              <div id="pk-confirm-summary" style="padding:14px;border-radius:14px;background:#EFE7DA;font-size:13px;color:#1F1712;margin-bottom:20px;"></div>
+              <p style="font-size:13px;color:#5C4D40;line-height:1.6;">
+                Điều phối viên kỹ thuật của <strong>Công ty TNHH TM DV Kỹ Thuật Hoàng Trang Việt Nam</strong> sẽ liên hệ xác nhận trong 5 phút. Cần hỗ trợ khẩn cấp vui lòng gọi <a href="tel:0902972860" style="color:#8C632A;font-weight:700;">0902 972 860</a>.
+              </p>
+              <button type="button" class="pk-submit-btn" data-close-bag>Hoàn tất &amp; Quay lại trang chủ</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       SCRIPTS: Framemap LUT + Lenis Smooth Scroll + ImageBitmap Binary Unpacker
+       ======================================================================== -->
+  <script src="framemap.js"></script>
+  <script src="lenis.min.js"></script>
+  <script src="checkout.js"></script>
+
+  <script>
+    (function () {
+      "use strict";
+
+      const canvas = document.getElementById("film");
+      const ctx = canvas.getContext("2d", { alpha: false });
+      const hudText = document.getElementById("pk-hud-text");
+      const FMAP = window.__FMAP;
+
+      const TOTAL_FRAMES = FMAP ? FMAP.desktop_n : 160;
+      const bitmaps = new Array(TOTAL_FRAMES).fill(null);
+      let currentFrameIdx = -1;
+      let targetProgress = 0;
+      let decodedCount = 0;
+
+      // Resize canvas backing store to devicePixelRatio (up to 2x Retina like PIVOINE)
+      function resizeCanvas() {
+        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        canvas.width = Math.round(window.innerWidth * dpr);
+        canvas.height = Math.round(window.innerHeight * dpr);
+        ctx.fillStyle = "#F3ECE1";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        drawFrame(currentFrameIdx >= 0 ? currentFrameIdx : 0, true);
+      }
+
+      // Find nearest loaded ImageBitmap if exact frame is still streaming
+      function getNearestBitmap(idx) {
+        if (bitmaps[idx]) return bitmaps[idx];
+        for (let d = 1; d < TOTAL_FRAMES; d++) {
+          if (idx - d >= 0 && bitmaps[idx - d]) return bitmaps[idx - d];
+          if (idx + d < TOTAL_FRAMES && bitmaps[idx + d]) return bitmaps[idx + d];
+        }
+        return null;
+      }
+
+      // Draw frame with cover/contain art-direction matching PIVOINE's right-side focal layout
+      function drawFrame(idx, force) {
+        if (idx === currentFrameIdx && !force) return;
+        const bmp = getNearestBitmap(idx);
+        if (!bmp) return;
+        currentFrameIdx = idx;
+
+        const cw = canvas.width;
+        const ch = canvas.height;
+        const iw = bmp.width;
+        const ih = bmp.height;
+
+        // Fill studio background (#F3ECE1) first
+        ctx.fillStyle = "#F3ECE1";
+        ctx.fillRect(0, 0, cw, ch);
+
+        const scale = Math.max(cw / iw, ch / ih);
+        const dw = iw * scale;
+        const dh = ih * scale;
+        // Anchor slightly right-center so the flower & capsule remain framed cleanly on the right
+        const dx = (cw - dw) * 0.65;
+        const dy = (ch - dh) * 0.5;
+
+        ctx.drawImage(bmp, dx, dy, dw, dh);
+
+        if (hudText) {
+          const padIdx = String(idx + 1).padStart(3, "0");
+          hudText.textContent = `CANVAS IMAGEBITMAP · FRAME ${padIdx} / ${TOTAL_FRAMES} (${decodedCount} READY)`;
+        }
+      }
+
+      // Unpack a binary `.bin` pack into WebP Blobs and decode to GPU ImageBitmaps
+      async function unpackBinaryPack(packUrl, frameList) {
+        const res = await fetch(packUrl);
+        if (!res.ok) throw new Error("Failed to load binary pack: " + packUrl);
+        const buffer = await res.arrayBuffer();
+
+        const decodePromises = frameList.map(async (meta) => {
+          const slice = buffer.slice(meta.o, meta.o + meta.l);
+          const blob = new Blob([slice], { type: "image/webp" });
+          const bmp = await createImageBitmap(blob);
+          const isNew = bitmaps[meta.i] === null;
+          bitmaps[meta.i] = bmp;
+          if (isNew) decodedCount++;
+          if (meta.i === 0 && currentFrameIdx <= 0) {
+            drawFrame(0, true);
+          }
+        });
+
+        await Promise.all(decodePromises);
+        drawFrame(currentFrameIdx >= 0 ? currentFrameIdx : 0, true);
+      }
+
+      async function bootFilmEngine() {
+        if (!FMAP) return;
+        try {
+          // 1. Load startup pack `s_00.bin` first for instant <150ms scroll scrubbing
+          await unpackBinaryPack(FMAP.startup.file, FMAP.startup.frames);
+          // 2. Stream full-resolution chunks `c_0000.bin` & `c_0001.bin` in parallel
+          await Promise.all(
+            FMAP.chunks.map((chunk) => unpackBinaryPack(chunk.file, chunk.frames))
+          );
+        } catch (err) {
+          console.error("[Galatea Film Engine]", err);
+        }
+      }
+
+      // Map scroll progress across #scroll-track to frame index via window.__FMAP.lut
+      function updateScrollProgress() {
+        const track = document.getElementById("scroll-track");
+        if (!track) return;
+        const rect = track.getBoundingClientRect();
+        const scrollable = Math.max(1, track.offsetHeight - window.innerHeight * 0.65);
+        const scrolled = Math.max(0, -rect.top);
+        targetProgress = Math.max(0, Math.min(1, scrolled / scrollable));
+
+        const lutIdx = Math.round(targetProgress * 1000);
+        const frameIdx = FMAP && FMAP.lut ? FMAP.lut[lutIdx] : Math.round(targetProgress * (TOTAL_FRAMES - 1));
+        drawFrame(frameIdx, false);
+
+        // Synchronize pinned editorial stage cards directly with frame index & shop section
+        const shopEl = document.getElementById("the-line");
+        const shopTop = shopEl ? shopEl.getBoundingClientRect().top : window.innerHeight;
+        const deckHidden = shopTop < window.innerHeight * 0.62;
+        let activeStage = 0;
+        if (frameIdx >= 106) activeStage = 2;
+        else if (frameIdx >= 48) activeStage = 1;
+        else activeStage = 0;
+
+        document.querySelectorAll("[data-stage-card]").forEach((card) => {
+          const idx = Number(card.getAttribute("data-stage-card"));
+          card.classList.toggle("is-visible", !deckHidden && idx === activeStage);
+        });
+      }
+
+      // Initialize Lenis Smooth Scroll
+      const lenis = new window.Lenis({
+        lerp: 0.09,
+        wheelMultiplier: 0.95,
+      });
+      window.__lenis = lenis;
+
+      lenis.on("scroll", () => {
+        updateScrollProgress();
+      });
+
+      function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+      }
+      requestAnimationFrame(raf);
+
+      // Smooth anchor navigation
+      document.addEventListener("click", (e) => {
+        const link = e.target.closest("[data-scroll-to]");
+        if (link) {
+          e.preventDefault();
+          const target = link.getAttribute("data-scroll-to");
+          lenis.scrollTo(target);
+        }
+      });
+
+      window.addEventListener("resize", resizeCanvas, { passive: true });
+      resizeCanvas();
+      bootFilmEngine();
+      updateScrollProgress();
+    })();
+  </script>
+</body>
+</html>
